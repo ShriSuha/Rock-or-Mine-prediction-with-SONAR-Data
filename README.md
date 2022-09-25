@@ -13,6 +13,8 @@ In the laboratory setup, an experiment can be done where the sonar is used to se
 
 The sonar data is collected and preprocessed. Data preprocessing is an essential step in Machine Learning because the data directly affects the model's ability to learn; thus, it is critical that feed only the data which helps in better learning and the data that doesnot misguide the model. The data is then fed to a Logistic regression model(supervised learning algorithm). Logistic regression works really well for binary classification problem. Once the model is trained with the training data, we will get a trained logistic regression model. So, this model has learned from the data that how different a sonar reponse from metal is from a sonar response from a rock. Now when we give a new data, the model can predict whether the object is just a rock or it is a mine.
 
+![project workflow](mine_or_rock_project_workflow.PNG)
+
 ### REFERENCE
 
 https://www.youtube.com/watch?v=fiz1ORTBGpY&list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6&index=1
